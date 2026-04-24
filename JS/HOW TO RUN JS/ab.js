@@ -47,6 +47,39 @@ const greetUser=(name)=>{
 greetUser("Alice");
 
 let newarray = [1,2,3,4,5];
-let squaredArray = newarray.
-map((num)=> num*num);
+let squaredArray = newarray.map((num)=>num*5);
 console.log(squaredArray);
+
+let newArray = Newarray=[5,10,15,20,25];
+let squareArray = Newarray.map((num)=>num-5);
+console.log(squareArray);
+
+let evenNumbers=[1,2,3,4,5];
+let filteredEvenNumbers = evenNumbers.filter(num=> num%2===0);
+console.log(filteredEvenNumbers);
+
+let sum=[1,2,3,4,5];
+let total= sum.reduce((accumulator, currentValue)=> accumulator + currentValue, 0);
+console.log(total);
+
+let students =[
+    {name: "Alice",marks:85},
+    {name: "Bob",marks:92},
+    {name: "Charlie", marks:78},
+];
+
+let marks= students.map(students=>student.marks);
+console.log(marks);
+
+let names= students.map(student=> student.name);
+console.log(names);
+
+let topStudents= students.filter (student=> student.marks>80);
+console.log(topStudents);
+
+let totalMarks= student.reduce((acc,student)=> acc+ student.marks,0);
+console.log(totalMarks);
+
+
+
+
